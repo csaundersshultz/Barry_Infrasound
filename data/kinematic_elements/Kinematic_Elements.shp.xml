@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--Record created using version 2.0.6 of the USGS Metadata Wizard tool. (https://github.com/usgs/fort-pymdwizard)-->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Jeffrey A. Coe</origin>
+        <origin>Gabriel J. Wolken</origin>
+        <origin>Ronald P. Daanen</origin>
+        <origin>Robert G. Schmitt</origin>
+        <pubdate>20210129</pubdate>
+        <title>Kinematic Elements Shapefile</title>
+        <geoform>vector digital data</geoform>
+        <onlink>https://doi.org/10.5066/P9EUCGJQ</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This map layer is part of a Geodatabase produced from structural mapping using lidar and bathymetry data collected at Barry Arm in the summer of 2020. We defined kinematic elements based on the position and geometry of strike-slip faults and on the overall distribution of bedrock, talus, and drainages visible in lidar data. Kinematic elements boundaries are a result of cumulative, differential patterns and amounts of movement that began at inception of the landslides. Elements and/or their boundaries may change location as the landslides continue to evolve. Kinematic elements mapped in 2020 may or may not reflect patterns of historical short-term, episodic movement, or patterns of movement in the future. </abstract>
+      <purpose>This map layer could form at least a partial basis for discriminating multiple volume scenarios (for example, a separate scenario for each kinematic element) to use for tsunami modeling. </purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20200626</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>Kinematic Elements Extent</descgeog>
+      <bounding>
+        <westbc>-148.1758</westbc>
+        <eastbc>-148.1180</eastbc>
+        <northbc>61.1743</northbc>
+        <southbc>61.1351</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS</themekt>
+        <themekey>GHSC</themekey>
+        <themekey>Geologic Hazards Science Center</themekey>
+        <themekey>Landslide Hazards</themekey>
+        <themekey>Tsunami Hazard Planning</themekey>
+        <themekey>USGS</themekey>
+      </theme>
+      <theme>
+        <themekt>Subject</themekt>
+        <themekey>Barry Glacier</themekey>
+        <themekey>Hazard</themekey>
+        <themekey>Landslide</themekey>
+        <themekey>risk</themekey>
+        <themekey>rock avalanche</themekey>
+        <themekey>rock slide</themekey>
+        <themekey>structural geology</themekey>
+        <themekey>tsunami</themekey>
+      </theme>
+      <place>
+        <placekt>Location</placekt>
+        <placekey>Prince William Sound, Alaska</placekey>
+        <placekey>Alaska</placekey>
+        <placekey>Barry Arm Glacier</placekey>
+      </place>
+    </keywords>
+    <accconst>None.  Please see 'Distribution Info' for details.</accconst>
+    <useconst>None.  Users are advised to read the dataset's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jeffrey A Coe</cntper>
+          <cntorg>U.S. Geological Survey, ROCKY MOUNTAIN REGION</cntorg>
+        </cntperp>
+        <cntpos>Research Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Mail Stop MS 966, 1711 Illinois St</address>
+          <city>Golden</city>
+          <state>CO</state>
+          <postal>80401</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>303-273-8606</cntvoice>
+        <cntfax>303-273-8600</cntfax>
+        <cntemail>jcoe@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <crossref>
+      <citeinfo>
+        <origin>Chunli Dai</origin>
+        <origin>Bretwood Higman</origin>
+        <origin>Patrick J. Lynett</origin>
+        <origin>Mylène Jacquemart</origin>
+        <origin>Ian M. Howat</origin>
+        <origin>Anna K. Liljedahl</origin>
+        <origin>Anja Dufresne</origin>
+        <origin>Jeffrey T. Freymueller</origin>
+        <origin>Marten Geertsema</origin>
+        <origin>Melissa Ward Jones</origin>
+        <origin>Peter J. Haeussler</origin>
+        <pubdate>20201109</pubdate>
+        <title>Detection and Assessment of a Large and Potentially Tsunamigenic Periglacial Landslide in Barry Arm, Alaska</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Geophysical Research Letters</sername>
+          <issue>vol. 47, issue 22</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Online</pubplace>
+          <publish>American Geophysical Union (AGU)</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1029/2020GL089800</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Lauren N. Schaefer</origin>
+        <origin>Jeffrey A. Coe</origin>
+        <origin>Gabriel J Wolken</origin>
+        <origin>Jonathan W Godt</origin>
+        <pubdate>2020</pubdate>
+        <title>Interferometric synthetic aperture radar data from 2020 for landslides at Barry Arm Fjord, Alaska</title>
+        <geoform>dataset</geoform>
+        <pubinfo>
+          <pubplace>https://www.sciencebase.gov</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/p9z04lnk</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal accuracy tests were performed. Data was created using the best understanding of geologic structure mapping as interpreted through the Lidar.</attraccr>
+    </attracc>
+    <logic>Data follows all logical consistencies and no duplicates were found.</logic>
+    <complete>Data is considered complete for the time period described here. Geologic structures can and often change with landslides.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Horizonal accuracy is acceptable for the scale at which the data was mapped.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Vertical accuracy not needed for this dataset.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>We mapped kinematic elements based on the position and geometry of strike-slip faults and on the overall distribution of bedrock, talus, and drainages visible in lidar data. The lidar data were acquired by the Alaska Division of Geological and Geophysical Surveys (DGGS) on June 26, 2020.  A shaded-relief image of the lidar are included in this release, but the LiDAR data are not part of this data release. The lidar data will be released by DGGS in 2021. Kinematic element boundaries are approximately located and are a result of cumulative, differential patterns and amounts of movement that began at inception of the landslides. Elements and/or their boundaries may change location as the landslides continue to evolve. Kinematic elements mapped in 2020 may or may not reflect patterns of historical short-term, episodic movement, or patterns of movement in the future.</procdesc>
+        <procdate>2021</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Jeffrey A Coe</cntper>
+              <cntorg>U.S. Geological Survey, ROCKY MOUNTAIN REGION</cntorg>
+            </cntperp>
+            <cntpos>Research Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>Mail Stop MS 966, 1711 Illinois St</address>
+              <city>Golden</city>
+              <state>CO</state>
+              <postal>80401</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>303-273-8606</cntvoice>
+            <cntfax>303-273-8600</cntfax>
+            <cntemail>jcoe@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>5</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>6</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-147.0</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.6096</absres>
+            <ordres>0.6096</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North_American_Datum_1983</horizdn>
+        <ellips>GRS_1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Kinematic_Elements.shp Attribute Table</enttypl>
+        <enttypd>Table containing attribute information associated with the data set.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv><udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Kin_ID</attrlabl>
+        <attrdef>Kinematic ID</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>1</rdommin>
+            <rdommax>5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Name of kinematic element</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv><udom>Various names given to kinematic elements to aid in the discussion of certain areas in the landslide.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Area_sq_m</attrlabl>
+        <attrdef>area in square meters (planar calculation)</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>421050.195941</rdommin>
+            <rdommax>1291807.99514</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+        <attrdef>ESRI feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>2882.14352227</rdommin>
+            <rdommax>5008.22243892</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>ESRI feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>421050.195941</rdommin>
+            <rdommax>1291807.99514</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform><digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt><onlinopt><computer><networka><networkr>https://doi.org/10.5066/P9EUCGJQ</networkr></networka></computer></onlinopt></digtopt></digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20210128</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>GHSC Data Steward</cntper>
+          <cntorg>US Geological Survey, Geologic Hazards Science Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1711 Illinois St.</address>
+          <city>Golden</city>
+          <state>CO</state>
+          <postal>80401</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>303-273-8500</cntvoice>
+        <cntemail>ghsc_metadata@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>

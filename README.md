@@ -1,0 +1,36 @@
+# Barry infrasound summary 2024-2026
+Author - Pablo Saunders-Shultz
+
+This repository was made to share progress in the analysis of infrasound data from Barry Arm for rockfall detection on the Barry Arm landslide. 
+
+# Notebook Files
+
+
+ 1. forward_model.ipynb -
+ Generating forward model, where we expect rockfall detections to land in Back-azimuth/velocity space.
+    -   Simplifying polygons from coe et al 2023.
+    -   for each vertex, calculate direct and diffracted path to each BAEI sensor using infresnel package
+    -   Assume an air velocity of ~433.4 m/s, or air temp of 5C. Use this number to calculate travel times to each sensor.
+    - Then calculate differential travel times for each station pair, constructing the TAU object.
+    - Finish regression using cloned versions of LTS array processing functions.
+ 2. event_gathering.ipynb - 
+ From the forward model, simply overlay it on a histogram of LTS results. This plot should show clear clusters of rockfall events on the landslide scarp if there are any. Further analysis is my best attempt to filter out these clear rockfall events from background noise.
+ 	- Read in LTS data and matches it up with meteorological data nearest in time, then calculates the corrected velocity at 5C. 
+    - Plot a 2d histogram of LTS results by back-azimuth and velocity (corrected for temperature), overlay outlines of the barry arm kinematic zones calculated with forward_model.
+    -  Select points within manually defined zone boxes, further filter within each zone by sigma tau. The sigma tau threshold is demonstrated in the next plot
+    - plot 2d histogram of all LTS points by sigma tau and MdCCM, scatter plot the windows within the zone boxes on top. Side panel shows KDE histogram of sigma tau values for the two zones, displaying a nice bimodal distribution. A threshold is chosen here to split the bimodal distribution and preserve on the lower sigma tau events. Another small plot shows the effect this has on the windows selected within the zone - more of the outer edge windows are removed, further validating this thresholding.  
+    - Group windows into events if they are continuous. Plot a small histogram showing the number of windows found in each event. To further filter events I considered dropping events with only a single window, but didn't do that in the final version. 
+    - Get pressure info for each event
+    - Finally, plot a timeseries of events compared to rainfall data and radar data.
+    - Next, get pressure for 500 earlier selected glacier windows, and plot pressure and MdCCM of the glacier windows and the zone selected events.
+    - Plot PSD of rockfall events and the glacier windows (this plot looks terrible).
+    - Final plot is an example rockfall event. 
+
+
+# Data Files
+
+
+# Other
+
+ 1. environment.yml -
+ Lists all the required packages to recreate the environment used in processing. Does not include installation of infresnel which must be done manually. Supposedly you should be able to create a new environment by calling `conda env create -f environment.yml` but in my experience that never works. 
